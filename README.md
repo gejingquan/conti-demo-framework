@@ -25,9 +25,8 @@ cd ..
 3. Download the conti demo framework and change the docker name to your_dockername
 
 ```
-git clone https://github.com/zyw-200/conti_afl_framework-master-master
-```markdown //Replace this url address with the latest framework address
-vi conti_afl_framework-master-master/mysite/fuzzing_service/fuzzers/AFLFuzzer/AFLFuzzer.py   //Modify lines 597, 648 and 685 of AFLFuzzer.py and replace them with your_dockername   
+git clone https://github.com/zyw-200/conti_afl_framework-master-master    // Replace this url address with the latest framework address
+vi conti_afl_framework-master-master/mysite/fuzzing_service/fuzzers/AFLFuzzer/AFLFuzzer.py   // Modify lines 597, 648 and 685 of AFLFuzzer.py and replace them with your_dockername   
 
 ```
 
