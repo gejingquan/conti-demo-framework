@@ -36,6 +36,7 @@ vi conti_afl_framework-master-master/mysite/fuzzing_service/fuzzers/AFLFuzzer/AF
 cd conti_afl_framework-master-master
 /usr/bin/python3 -m venv conti_afl_framework
 source conti_afl_framework/bin/activate
+pip install -r mysite/requirements.txt
 cd mysite
 mkdir media
 python manage.py makemigrations fuzzing_service
