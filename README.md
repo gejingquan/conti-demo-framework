@@ -26,7 +26,7 @@ cd ..
 
 ```
 git clone https://github.com/zyw-200/conti_afl_framework-master-master    // Replace this url address with the latest framework address
-vi conti_afl_framework-master-master/mysite/fuzzing_service/fuzzers/AFLFuzzer/AFLFuzzer.py   // Modify lines 597, 648 and 685 of AFLFuzzer.py and replace them with your_dockername   
+vi conti_afl_framework-master-master/mysite/fuzzing_service/fuzzers/AFLFuzzer/AFLFuzzer.py   // Modify lines 599, 650 and 710 of AFLFuzzer.py and replace them with your_dockername   
 
 ```
 
