@@ -17,7 +17,11 @@ cd ..
 ```
 git clone https://github.com/gejingquan/conti-demo-docker
 cd conti-demo-docker
-docker build -t your_dockername .
+docker build -t your_dockername1 .
+cd ..
+git clone https://github.com/MarkLee131/AutoPatcher
+cd AutoPatcher
+docker build -t your_dockername2 .
 cd ..
 ```
 
@@ -26,7 +30,7 @@ cd ..
 
 ```
 git clone https://github.com/zyw-200/conti_afl_framework-master-master    // Replace this url address with the latest framework address
-vi conti_afl_framework-master-master/mysite/fuzzing_service/fuzzers/AFLFuzzer/AFLFuzzer.py   // Modify lines 599, 650 and 710 of AFLFuzzer.py and replace them with your_dockername   
+vi conti_afl_framework-master-master/mysite/fuzzing_service/fuzzers/AFLFuzzer/AFLFuzzer.py   // Modify lines 599, 650 and 710 with your_dockername1, modify line 685 with your_dockername2.    
 
 ```
 
