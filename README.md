@@ -54,6 +54,7 @@ python manage.py runserver *.*.*.*:8040
 ```
 
 5. Before running RCA, disable ASLR in advance.
+Open a new terminal and run the following command:
 ```
 su
 echo 0 | sudo tee /proc/sys/kernel/randomize_va_space
