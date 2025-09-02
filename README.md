@@ -53,4 +53,11 @@ fp123
 python manage.py runserver *.*.*.*:8040
 ```
 
+5. Before running RCA, disable ASLR in advance.
+```
+su
+echo 0 | sudo tee /proc/sys/kernel/randomize_va_space
+```
+
+
  
