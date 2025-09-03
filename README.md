@@ -17,7 +17,24 @@ cd ..
 ```
 git clone https://github.com/gejingquan/conti-demo-docker
 cd conti-demo-docker
+```
+
+If you want to fuzz test software for Ubuntu 20.04, build the RCA-brach Docker image.
+
+```
+git checkout RCA-branch
 docker build -t your_dockername1 .
+```
+
+If you want to fuzz test software for Ubuntu 22.04, build the main branch Docker image.
+
+```
+git checkout main
+docker build -t your_dockername1 .
+```
+
+Then, build the AutoPatcher docker image
+```
 cd ..
 git clone https://github.com/MarkLee131/AutoPatcher
 cd AutoPatcher
